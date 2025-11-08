@@ -1,5 +1,6 @@
 package com.kerbores.gitea.client.request;
 
+import java.io.Serial;
 import java.util.HashMap;
 
 /**
@@ -7,6 +8,7 @@ import java.util.HashMap;
  */
 public class Parameters extends HashMap<String, Object> {
 
+    @Serial
     private static final long serialVersionUID = 1L;
 
     public static Parameters NEW() {
